@@ -66,7 +66,7 @@ public class ApiHandler {
     }
 
     public ApiResult apiResult(Object entityResults, StatusCode statusCode) {
-        ApiResult result = getApiResult();
+        ApiResult result = checkRequestResult();
         result.setData(entityResults);
         result.setCode(statusCode.getCode());
         result.setMsg(statusCode.getMsg());

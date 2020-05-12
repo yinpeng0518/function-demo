@@ -11,12 +11,14 @@ public enum StatusCode {
     LOGIN_FAIL_VALIDATE(1001, "登录失败！"),
     INITIALIZED_PASSWORD(1002, "初始化密码！"),
     LOGIN_FAIL_CODE_CAPTCHA(1003, "验证码错误！"),
+    SEND_FAILURE(1004, "短信发送失败"),
 
     SUCCESS(2000, "操作成功！"),
-    SAVE_SUCCESS(2000, "保存成功！"),
-    DELETE_SUCCESS(2000, "删除成功！"),
-    UPDATE_SUCCESS(2000, "修改成功！"),
-    QUERY_SUCCESS(2000, "查询成功！"),
+    SAVE_SUCCESS(2001, "保存成功！"),
+    DELETE_SUCCESS(2002, "删除成功！"),
+    UPDATE_SUCCESS(2003, "修改成功！"),
+    QUERY_SUCCESS(2004, "查询成功！"),
+    SEND_SUCCESS(2005, "短信发送成功"),
 
     FRIENDSHIP(3000, "友情提示！"),
     NULL_DATA_FRIENDSHIP(3001, "暂无数据！"),

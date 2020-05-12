@@ -1,0 +1,7 @@
+server:
+  port: 9090
+
+spring:
+  redis:
+    host: localhost  #\u9ED8\u8BA4\u4E3Alocalhost
+    port: 6379       #\u9ED8\u8BA4\u4E3A6379

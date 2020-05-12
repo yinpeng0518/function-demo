@@ -36,6 +36,7 @@ dependencies {
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
+    compile group: 'com.aliyun', name: 'aliyun-java-sdk-core', version: '4.5.1'  //阿里云短信服务
 }
 
 test {

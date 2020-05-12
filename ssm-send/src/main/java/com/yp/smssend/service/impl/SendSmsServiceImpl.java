@@ -6,6 +6,7 @@ import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.http.MethodType;
 import com.aliyuncs.profile.DefaultProfile;
 import com.yp.smssend.enums.StatusCode;
+import com.yp.smssend.exceptions.BizException;
 import com.yp.smssend.service.SendSmsService;
 import com.yp.smssend.utils.RandomUtil;
 import lombok.extern.slf4j.Slf4j;
@@ -26,8 +27,8 @@ import java.util.concurrent.TimeUnit;
 @Service
 public class SendSmsServiceImpl implements SendSmsService {
 
-    private static final String SIGN_NAME = "狂神说Java";
-    private static final String TEMPLATE_CODE = "SMS_189826041";
+    private static final String SIGN_NAME = "";
+    private static final String TEMPLATE_CODE = "";
     private static final int RANDOM = 6;
 
     private final StringRedisTemplate redisTemplate;
@@ -77,8 +78,7 @@ public class SendSmsServiceImpl implements SendSmsService {
             return commonResponse.getHttpResponse().isSuccess();
         } catch (Exception e) {
             log.error("短信发送失败", e);
+            throw new BizException(StatusCode.SEND_FAILURE);
         }
-
-        return false;
     }
 }

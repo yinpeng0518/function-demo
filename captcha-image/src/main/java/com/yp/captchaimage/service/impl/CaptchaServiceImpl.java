@@ -51,6 +51,7 @@ public class CaptchaServiceImpl implements CaptchaService {
             return false;
         }
         String storeCode = apiHandler.getSessionAttr(STORE_CAPTCHA_CODE);
+        apiHandler.removeSession(STORE_CAPTCHA_CODE);
         return code.trim().equalsIgnoreCase(storeCode);
     }
 }

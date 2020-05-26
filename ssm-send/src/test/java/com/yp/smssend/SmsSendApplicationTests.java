@@ -20,7 +20,7 @@ public class SmsSendApplicationTests {
     @Test
     void contextLoads() throws ClientException, JsonProcessingException {
         //连接阿里云
-        DefaultProfile profile = DefaultProfile.getProfile("ch-hangzhou", "LTAI4G8YgfwQZK7tb4gyb3R8", "WMi3FTmxbe9xU6nwOiKXufo7ou6Foi");
+        DefaultProfile profile = DefaultProfile.getProfile("ch-hangzhou", "", "");
         DefaultAcsClient client = new DefaultAcsClient(profile);
 
         //构建请求

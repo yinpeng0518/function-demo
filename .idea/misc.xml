@@ -3,6 +3,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/captcha-image" />
+    <file type="web" url="file://$PROJECT_DIR$/redis-jedis" />
     <file type="web" url="file://$PROJECT_DIR$/ssm-send" />
   </component>
   <component name="JavaScriptSettings">

@@ -1,0 +1,9 @@
+server:
+  port: 9092
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    password: '&Longye19920312&'
+    timeout: 20000

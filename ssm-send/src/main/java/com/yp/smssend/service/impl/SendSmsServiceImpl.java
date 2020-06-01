@@ -58,7 +58,7 @@ public class SendSmsServiceImpl implements SendSmsService {
 
     private boolean send(String phoneNumbers, Map<String, String> templateParam) {
 
-        DefaultProfile profile = DefaultProfile.getProfile("ch-hangzhou", "LTAI4G8YgfwQZK7tb4gyb3R8", "WMi3FTmxbe9xU6nwOiKXufo7ou6Foi");
+        DefaultProfile profile = DefaultProfile.getProfile("ch-hangzhou", "", "");
         DefaultAcsClient client = new DefaultAcsClient(profile);
 
         CommonRequest commonRequest = new CommonRequest();

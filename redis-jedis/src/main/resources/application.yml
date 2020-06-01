@@ -3,7 +3,7 @@ server:
 
 spring:
   redis:
-    host: localhost
+    host: 10.15.1.245
     port: 6379
-    password: '&Longye19920312&'
+    #password: '&Longye19920312&'
     timeout: 20000

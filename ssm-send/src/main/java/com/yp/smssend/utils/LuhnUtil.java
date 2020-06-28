@@ -37,9 +37,8 @@ public abstract class LuhnUtil {
         int[] wei = new int[length];
         for (int i = 0; i < number.length(); i++) {
             wei[i] = Integer.parseInt(number.substring(length - i - 1, length - i));
-            // System.out.print(wei[i]);
         }
-        for (int i = 1; i < length; i++) {
+        for (int i = 1; i <= length; i++) {
             int j = i - 1;
             if (i % 2 == 1) {
                 sumOdd += wei[j];
@@ -52,8 +51,6 @@ public abstract class LuhnUtil {
                 sumEven += wei[j];
             }
         }
-        //log.debug("sumOdd = {}", sumOdd);
-        // log.debug("sumEven = {}", sumEven);
         return (sumOdd + sumEven) % 10 == 0;
     }
 

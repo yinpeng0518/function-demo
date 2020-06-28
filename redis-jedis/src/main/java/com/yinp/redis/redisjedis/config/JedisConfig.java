@@ -7,8 +7,6 @@
  */
 package com.yinp.redis.redisjedis.config;
 
-import lombok.Data;
-import lombok.Getter;
 import lombok.Setter;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Value;
@@ -23,7 +21,7 @@ import redis.clients.jedis.JedisPoolConfig;
  * 2020/6/1
  */
 @Slf4j
-@Configuration(proxyBeanMethods = true)
+@Configuration(proxyBeanMethods = false)
 @ConfigurationProperties(prefix = "spring.redis")
 @Setter
 public class JedisConfig {

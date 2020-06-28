@@ -26,8 +26,10 @@ class RedisJedisApplicationTests {
 
     @Test
     void contextLoads() {
-        String set = jedis.set("book", "西游记");
-        System.out.println(set);
+        String save = jedis.bgsave();
+        System.out.println("save:"+save);
+//        String set = jedis.set("book", "西游记");
+//        System.out.println(set);
     }
 
     @Test

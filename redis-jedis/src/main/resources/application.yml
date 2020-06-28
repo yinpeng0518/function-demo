@@ -5,5 +5,5 @@ spring:
   redis:
     host: 10.15.1.245
     port: 6379
-    #password: '&Longye19920312&'
+    password: fydata
     timeout: 20000

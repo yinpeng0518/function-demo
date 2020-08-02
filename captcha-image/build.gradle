@@ -19,6 +19,11 @@ configurations {
 }
 
 repositories {
+    mavenLocal()
+    maven{ url 'https://maven.aliyun.com/repository/public'}
+    maven { url "https://maven.aliyun.com/repository/spring" }
+    maven { url "https://maven.aliyun.com/repository/spring-plugin" }
+    maven{ url 'https://nexus.fybdp.com/repository/maven-public/' }
     mavenCentral()
 }
 

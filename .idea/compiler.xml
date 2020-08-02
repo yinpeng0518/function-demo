@@ -6,13 +6,13 @@
       <profile name="Gradle Imported" enabled="true">
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="false">
-          <entry name="$PROJECT_DIR$/../../Tools/gradle/repos/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.3.0.RELEASE/a641a8edacbdcce7c10f4979df62446f0b895769/spring-boot-configuration-processor-2.3.0.RELEASE.jar" />
-          <entry name="$PROJECT_DIR$/../../Tools/gradle/repos/caches/modules-2/files-2.1/org.projectlombok/lombok/1.18.12/48e4e5d60309ebd833bc528dcf77668eab3cd72c/lombok-1.18.12.jar" />
+          <entry name="$PROJECT_DIR$/../../JavaTools/Maven/mvn_repo/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-configuration-processor/2.3.2.RELEASE/15631495314ae7aabfc82266094ee5c173d86f71/spring-boot-configuration-processor-2.3.2.RELEASE.jar" />
+          <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.12/lombok-1.18.12.jar" />
         </processorPath>
-        <module name="ssm-send.main" />
+        <module name="qrcode.main" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="11" />
+    <bytecodeTargetLevel target="8" />
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">

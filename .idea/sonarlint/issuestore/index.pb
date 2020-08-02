@@ -1,6 +1,6 @@
 
 9
-	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+	README.md,8/e/8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 E
 ssm-send/build.gradle,3\d\3d8745d8e2fe047f20adef4cfbc980c4cb09795b
 a
@@ -121,3 +121,8 @@ Yredis-lettuce/src/test/java/com/yinp/redis/redislettuce/RedisLettuceApplication
 Kredis-jedis/src/main/java/com/yinp/redis/redisjedis/config/JedisConfig.java,f\0\f0dccba817e3eac070330cf3b04072de2139b56c
 
 Oredis-lettuce/src/main/java/com/yinp/redis/redislettuce/config/RedisConfig.java,6\0\60a14d2e6c6ff296f76411e0f7e5bbb21a1a7173
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
+C
+qrcode/build.gradle,b/9/b936f7732023fd4360ed0924cec4793b4e6ef527
